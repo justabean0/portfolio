@@ -88,6 +88,12 @@ body {
     cursor .4s step-end infinite alternate;
 }
 
+@media (max-width: 600px) {
+  .title {
+    font-size: 1.8rem;
+  }
+}
+
 @keyframes cursor{
   50%{border-color: transparent}
 }
